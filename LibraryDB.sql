@@ -1,22 +1,8 @@
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Sep 11, 2024 at 07:20 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
 
 CREATE DATABASE librarydb ;
 use librarydb
@@ -91,7 +77,13 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 (47, 'Langston Hughes', 1902, 1967),
 (48, 'Zora Neale Hurston', 1891, 1960),
 (49, 'Alice Walker', 1944, NULL),
-(50, 'Toni Morrison', 1931, 2019);
+(50, 'Toni Morrison', 1931, 2019),
+(51, 'Edgar Allan Poe', 1809, 1849),
+(52, 'Charles Dickens', 1812, 1870),
+(53, 'Ibn al-Qayyim', 1292, 1350),
+(54, 'al-Jahiz', 776, 868),
+(55, 'Ibn Hisham', NULL, 833);
+
 
 -- --------------------------------------------------------
 
@@ -162,7 +154,7 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (147, 'History of Philosophy', 38, 2020, 'Philosophy', 7),
 (148, 'Contemporary Arab Thought', 39, 2018, 'Thought', 9),
 (149, 'Programming in the Age of Big Data', 40, 2021, 'Programming', 12),
-(150, 'Basics of Astrology', 41, 2020, 'Philosophy', 5);
+(150, 'Jamharat Ansab Al- Arab', 8, 2000, 'History', 10),
 
 -- --------------------------------------------------------
 
