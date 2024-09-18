@@ -82,7 +82,8 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 (52, 'Charles Dickens', 1812, 1870),
 (53, 'Ibn al-Qayyim', 1292, 1350),
 (54, 'al-Jahiz', 776, 868),
-(55, 'Ibn Hisham', NULL, 833);
+(55, 'Ibn Hisham', NULL, 833),
+(56, 'Herbert Schildt', 1951, NULL);
 
 
 -- --------------------------------------------------------
@@ -112,7 +113,7 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (105, 'Atlas of the Umayyad State', 5, 2005, 'History', 6),
 (106, 'Nasab Maad w Alyemen alkabeer', 6, 2000, 'History', 5),
 (107, 'Kashkool Al-Hob', 7, 2015, 'Romance', 9),
-(108, 'The Ring of the Dove', 8, 1000, 'Literature', 4),
+(108, 'The Ring of the Dove', 8, 1000, 'Romance', 4),
 (109, 'Hamlet', 9, 1600, 'Play', 11),
 (110, 'General History of Civilizations', 10, 2008, 'History', 8),
 (111, 'The Dawn of Islam', 1, 2000, 'History', 10),
@@ -155,6 +156,14 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (148, 'Contemporary Arab Thought', 39, 2018, 'Thought', 9),
 (149, 'Programming in the Age of Big Data', 40, 2021, 'Programming', 12),
 (150, 'Jamharat Ansab Al- Arab', 8, 2000, 'History', 10),
+(151, 'Tales of Mystery & Imagination', 51, 1839, 'Novel', 1),
+(152, 'Oliver Twist', 52, 1839, 'Novel', 1),
+(153, 'Java: A Beginners Guide', 56, 2005, 'Programming', 9),
+(154, 'Kitāb al-Hayawān', 54, 2003, 'Literature', 1),
+(155, 'Kitāb al-Roh', 53, 2003, 'Religion', 1),
+(156, 'War and Peace', 15, 1869, 'Novel', 1);
+
+
 
 -- --------------------------------------------------------
 
