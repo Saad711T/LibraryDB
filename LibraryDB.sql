@@ -58,7 +58,7 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 (28, 'Stephen King', 1947, NULL),
 (29, 'Tolkien', 1892, 1973),
 (30, 'J.D. Salinger', 1919, 2010),
-(31, 'Chinua Achebe', 1930, 2013),
+(31, 'Ibn taymiyyah', 1263, 1328),
 (32, 'Gabriel Garcia Marquez', 1927, 2014),
 (33, 'John Steinbeck', 1902, 1968),
 (34, 'James Joyce', 1882, 1941),
@@ -145,7 +145,7 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (137, 'Earth Sciences', 28, 2015, 'Science', 9),
 (138, 'Modern Mathematics', 29, 2017, 'Mathematics', 10),
 (139, 'Educational Reform', 30, 2018, 'Education', 8),
-(140, 'Sacred Books', 31, 2016, 'Religion', 7),
+(140, 'Al-Aqidah Al-Waasitiyyah', 31, 1297, 'Religion', 1),
 (141, 'The Future of Technology', 32, 2020, 'Technology', 10),
 (142, 'Natural History', 33, 1859, 'Science', 9),
 (143, 'The Digital World', 34, 2021, 'Technology', 12),
@@ -161,7 +161,10 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (153, 'Java: A Beginners Guide', 56, 2005, 'Programming', 9),
 (154, 'Kitāb al-Hayawān', 54, 2003, 'Literature', 1),
 (155, 'Kitāb al-Roh', 53, 2003, 'Religion', 1),
-(156, 'War and Peace', 15, 1869, 'Novel', 1);
+(156, 'War and Peace', 15, 1869, 'Novel', 1),
+(157, 'C, the complete reference', 56, 1987, 'Programming', 4),
+(158, 'The Thing', 28, 1982, 'Novel', 1),
+(159, 'Tarikh al-Islam', 2, 1987, 'Religion', 1);
 
 
 
