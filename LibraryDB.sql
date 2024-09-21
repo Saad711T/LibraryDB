@@ -164,7 +164,8 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (156, 'War and Peace', 15, 1869, 'Novel', 1),
 (157, 'C, the complete reference', 56, 1987, 'Programming', 4),
 (158, 'The Thing', 28, 1982, 'Novel', 1),
-(159, 'Tarikh al-Islam', 2, 1987, 'Religion', 1);
+(159, 'Tathrib', 4, 2017, 'Novel', 1),
+(160, 'Tarikh al-Islam', 2, 1987, 'Religion', 1);
 
 
 
