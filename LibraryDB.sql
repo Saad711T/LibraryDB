@@ -83,8 +83,8 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 (53, 'Ibn al-Qayyim', 1292, 1350),
 (54, 'al-Jahiz', 776, 868),
 (55, 'Ibn Hisham', NULL, 833),
-(56, 'Herbert Schildt', 1951, NULL);
-
+(56, 'Herbert Schildt', 1951, NULL),
+(57, 'Sun Tzu', -544, -496);
 
 -- --------------------------------------------------------
 
@@ -165,8 +165,8 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (157, 'C, the complete reference', 56, 1987, 'Programming', 4),
 (158, 'The Thing', 28, 1982, 'Novel', 1),
 (159, 'Tathrib', 4, 2017, 'Novel', 1),
-(160, 'Tarikh al-Islam', 2, 1987, 'Religion', 1);
-
+(160, 'Tarikh al-Islam', 2, 1987, 'Religion', 1),
+(161, 'The Art of War', 57, -500, 'Literature', 1);
 
 
 -- --------------------------------------------------------
