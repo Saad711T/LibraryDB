@@ -114,7 +114,7 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (106, 'Nasab Maad w Alyemen alkabeer', 6, 2000, 'History', 5),
 (107, 'Kashkool Al-Hob', 7, 2015, 'Romance', 9),
 (108, 'The Ring of the Dove', 8, 1000, 'Romance', 4),
-(109, 'Hamlet', 9, 1600, 'Play', 11),
+(109, 'Hamlet', 9, 1600, 'Novel', 11),
 (110, 'General History of Civilizations', 10, 2008, 'History', 8),
 (111, 'The Dawn of Islam', 1, 2000, 'History', 10),
 (112, 'The Book of the Bayān and the Tabīn', 2, 900, 'Literature', 5),
@@ -166,7 +166,10 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (158, 'The Thing', 28, 1982, 'Novel', 1),
 (159, 'Tathrib', 4, 2017, 'Novel', 1),
 (160, 'Tarikh al-Islam', 2, 1987, 'Religion', 1),
-(161, 'The Art of War', 57, -500, 'Literature', 1);
+(161, 'The Art of War', 57, -500, 'Literature', 1),
+(162, 'Atlas of the Abassid State', 5, 2012, 'History', 1),
+(163, 'Macbeth', 9, 1623, 'Novel', 6);
+
 
 
 -- --------------------------------------------------------
