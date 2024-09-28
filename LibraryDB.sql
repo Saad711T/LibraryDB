@@ -168,7 +168,10 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (160, 'Tarikh al-Islam', 2, 1987, 'Religion', 1),
 (161, 'The Art of War', 57, -500, 'Literature', 1),
 (162, 'Atlas of the Abassid State', 5, 2012, 'History', 1),
-(163, 'Macbeth', 9, 1623, 'Novel', 6);
+(163, 'Macbeth', 9, 1623, 'Novel', 6),
+(164, 'Atlas of the prophets & Messengers' , 5, 2005, 'Religion' ,5),
+(165, 'The Body in the Library' , 3, 1942, 'Novel' ,9);
+
 
 
 
