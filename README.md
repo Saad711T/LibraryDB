@@ -12,7 +12,9 @@ Here is the SQL file used in this project:
 
 CREATE TABLE authors (
     author_id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL
+    name VARCHAR(100) NOT NULL ,
+    birth_year INT(11)DEFAULT NULL ,
+    death_year INT(11)DEFAULT NULL
 );
 
 CREATE TABLE books (
@@ -28,5 +30,8 @@ CREATE TABLE books (
 CREATE TABLE users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL,
-    email VARCHAR(100) NOT NULL
+    password_hash VARCHAR(255)NOT NULL,
+    full_name VARCHAR(100)NOT NULL,
+    email VARCHAR(100) NOT NULL ,
+    phone_number INT(15) DEFAULT NULL
 );
