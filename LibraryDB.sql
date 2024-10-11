@@ -85,7 +85,9 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 (55, 'Ibn Hisham', NULL, 833),
 (56, 'Herbert Schildt', 1951, NULL),
 (57, 'Sun Tzu', -544, -496),
-(58, 'Ibn al-Muqaffa', 720, 756);
+(58, 'Ibn al-Muqaffa', 720, 756),
+(59, 'Ramez Elmasri', 1950, 2022),
+(60, 'Ibn al-Athir', 1160, 1233);
 
 -- --------------------------------------------------------
 
@@ -174,8 +176,9 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (165, 'The Body in the Library' , 3, 1942, 'Novel' ,9),
 (166, 'Atlas of the Ottoman Empire' , 5, 2013, 'History' ,2),
 (167, 'Kalila and Dimna' , 58, 760, 'Literature' ,9),
-(168, 'A Tale of Two Cities' , 20, 1859, 'Novel' ,8);
-
+(168, 'A Tale of Two Cities' , 20, 1859, 'Novel' ,8),
+(169, 'Fundamentals of Database systems' , 59, 2015, 'Programming' ,7),
+(170, 'Al-Kāmil fī Al-tārīkh' , 60, 1231, 'History' ,5);
 
 
 
