@@ -58,7 +58,7 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 (28, 'Stephen King', 1947, NULL),
 (29, 'Tolkien', 1892, 1973),
 (30, 'J.D. Salinger', 1919, 2010),
-(31, 'Ibn taymiyyah', 1263, 1328),
+(31, 'Ibn Taymiyyah', 1263, 1328),
 (32, 'Gabriel Garcia Marquez', 1927, 2014),
 (33, 'John Steinbeck', 1902, 1968),
 (34, 'James Joyce', 1882, 1941),
@@ -84,7 +84,8 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 (54, 'al-Jahiz', 776, 868),
 (55, 'Ibn Hisham', NULL, 833),
 (56, 'Herbert Schildt', 1951, NULL),
-(57, 'Sun Tzu', -544, -496);
+(57, 'Sun Tzu', -544, -496),
+(58, 'Ibn al-Muqaffa', 720, 756);
 
 -- --------------------------------------------------------
 
@@ -170,7 +171,10 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (162, 'Atlas of the Abassid State', 5, 2012, 'History', 1),
 (163, 'Macbeth', 9, 1623, 'Novel', 6),
 (164, 'Atlas of the prophets & Messengers' , 5, 2005, 'Religion' ,5),
-(165, 'The Body in the Library' , 3, 1942, 'Novel' ,9);
+(165, 'The Body in the Library' , 3, 1942, 'Novel' ,9),
+(166, 'Atlas of the Ottoman Empire' , 5, 2013, 'History' ,2),
+(167, 'Kalila and Dimna' , 58, 760, 'Literature' ,9),
+(168, 'A Tale of Two Cities' , 20, 1859, 'Novel' ,8);
 
 
 
