@@ -5,7 +5,7 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 CREATE DATABASE librarydb ;
-use librarydb
+use librarydb;
 --
 -- Database: `librarydb`
 --
