@@ -88,7 +88,8 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 (58, 'Ibn al-Muqaffa', 720, 756),
 (59, 'Ramez Elmasri', 1950, 2022),
 (60, 'Ibn al-Athir', 1160, 1233),
-(61, 'William L. Shirer', 1904, 1993);
+(61, 'William L. Shirer', 1904, 1993),
+(62, 'Dan Brown', 1964, NULL);
 
 -- --------------------------------------------------------
 
@@ -182,7 +183,8 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (170, 'The Stand' , 28, 1978, 'Novel' ,1),
 (171, 'Al-Kāmil fī Al-tārīkh' , 60, 1231, 'History' ,5),
 (172, 'The Rise and Fall of the Third Reich' , 61, 1960, 'History' ,9),
-(173, 'A Dream Within a Dream' , 51, 1849, 'Novel' ,3);
+(173, 'A Dream Within a Dream' , 51, 1849, 'Novel' ,3),
+(174, 'The Da Vinci Code' , 62, 2003, 'Novel' ,5);
 
 
 
