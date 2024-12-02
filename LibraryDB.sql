@@ -90,7 +90,10 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 (60, 'Ibn al-Athir', 1160, 1233),
 (61, 'William L. Shirer', 1904, 1993),
 (62, 'Dan Brown', 1964, NULL),
-(63, 'Ibn Bassam', 1058, 1147);
+(63, 'Ibn Bassam', 1058, 1147),
+(64, 'Miles Copeland Jr.', 1916, 1991),
+(65, 'Herbet Schlidt' , 1951, NULL),
+(66, 'Ali Al-Tentawi' , 1909, 1999);
 
 
 -- --------------------------------------------------------
@@ -129,12 +132,12 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (114, 'The Proofs of the Quranic Sciences', 2, 1440, 'Religion', 7),
 (115, 'Chapters from History', 3, 2012, 'History', 6),
 (116, 'Principles of Syntax', 4, 1000, 'Language', 5),
-(117, 'Artificial Intelligence', 11, 2018, 'Technology', 9),
-(118, 'Programming in Python', 12, 2019, 'Programming', 15),
-(119, 'Fundamentals of Mathematics', 13, 2010, 'Mathematics', 14),
+(117, 'Artificial Intelligence', NULL, 2018, 'Technology', 9),
+(118, 'Programming in Python', 65, 2019, 'Programming', 15),
+(119, 'Fundamentals of Mathematics', NULL, 2010, 'Mathematics', 14),
 (120, 'Academic Writing', 14, 2017, 'Literature', 11),
 (121, 'Human Geography', 15, 2016, 'Geography', 13),
-(122, 'Java Programming Fundamentals', 12, 2019, 'Programming', 10),
+(122, 'Java Programming Fundamentals', 65, 2019, 'Programming', 10),
 (123, 'Arabic Alphabet', 16, 2002, 'Language', 6),
 (124, 'Travel Literature', 17, 2004, 'Literature', 8),
 (125, 'The War of the Worlds', 18, 1898, 'Science Fiction', 10),
@@ -187,7 +190,12 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (172, 'The Rise and Fall of the Third Reich' , 61, 1960, 'History' ,9),
 (173, 'A Dream Within a Dream' , 51, 1849, 'Novel' ,3),
 (174, 'The Da Vinci Code' , 62, 2003, 'Novel' ,5),
-(175, 'Al Dhahirah fi dhikr Mhasn Ahal Al jazeera' , 63, 1108, 'History' ,1);
+(175, 'Al Dhahirah fi dhikr Mhasn Ahal Al jazeera' , 63, 1108, 'History' ,1),
+(176, 'The Pathway of Life' , 15, 1919, 'Philosophy' ,3),
+(177, '1984' , 13, 1949, 'Novel' ,9),
+(178, 'Animal Farm' , 13, 1945, 'Novel' ,9),
+(179, 'The Game of Nations' , 64, 1969, 'History' ,1),
+(180, 'Sayied Rijal Altarikh - Muhammed' , 66, 2007, 'Religion' ,5);
 
 
 
