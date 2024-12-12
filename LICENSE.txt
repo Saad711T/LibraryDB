@@ -1,7 +1,7 @@
 Project Title: [LibraryDB]
 Description: [Database for Library website using by users]
 
-Copyright (c) [2024] [Saad The Legend/Saad Almalki/Blockel  Team]
+Copyright (c) [2024] [Saad The Legend/Saad Almalki/STACKS the NULLS]
 
 This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
 
