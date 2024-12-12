@@ -56,7 +56,7 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 (26, 'Ray Bradbury', 1920, 2012),
 (27, 'Margaret Atwood', 1939, NULL),
 (28, 'Stephen King', 1947, NULL),
-(29, 'Tolkien', 1892, 1973),
+(29, 'Ibn Khaldun', 1332, 1406),
 (30, 'J.D. Salinger', 1919, 2010),
 (31, 'Ibn Taymiyyah', 1263, 1328),
 (32, 'Gabriel Garcia Marquez', 1927, 2014),
@@ -92,8 +92,7 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 (62, 'Dan Brown', 1964, NULL),
 (63, 'Ibn Bassam', 1058, 1147),
 (64, 'Miles Copeland Jr.', 1916, 1991),
-(65, 'Herbet Schlidt' , 1951, NULL),
-(66, 'Ali Al-Tentawi' , 1909, 1999);
+(65, 'Ali Al-Tentawi' , 1909, 1999);
 
 
 -- --------------------------------------------------------
@@ -133,11 +132,11 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (115, 'Chapters from History', 3, 2012, 'History', 6),
 (116, 'Principles of Syntax', 4, 1000, 'Language', 5),
 (117, 'Artificial Intelligence', NULL, 2018, 'Technology', 9),
-(118, 'Programming in Python', 65, 2019, 'Programming', 15),
+(118, 'Programming in Python', 56, 2019, 'Programming', 15),
 (119, 'Fundamentals of Mathematics', NULL, 2010, 'Mathematics', 14),
 (120, 'Academic Writing', 14, 2017, 'Literature', 11),
 (121, 'Human Geography', 15, 2016, 'Geography', 13),
-(122, 'Java Programming Fundamentals', 65, 2019, 'Programming', 10),
+(122, 'Java Programming Fundamentals', 56, 2019, 'Programming', 10),
 (123, 'Arabic Alphabet', 16, 2002, 'Language', 6),
 (124, 'Travel Literature', 17, 2004, 'Literature', 8),
 (125, 'The War of the Worlds', 18, 1898, 'Science Fiction', 10),
@@ -166,7 +165,7 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (148, 'Contemporary Arab Thought', 39, 2018, 'Thought', 9),
 (149, 'Programming in the Age of Big Data', 40, 2021, 'Programming', 12),
 (150, 'Jamharat Ansab Al- Arab', 8, 2000, 'History', 10),
-(151, 'Tales of Mystery & Imagination', 51, 1839, 'Novel', 1),
+(151, 'Tales of Mystery & Imagination', 51, 1908, 'Novel', 1),
 (152, 'Oliver Twist', 52, 1839, 'Novel', 1),
 (153, 'Java: A Beginners Guide', 56, 2005, 'Programming', 9),
 (154, 'Kitāb al-Hayawān', 54, 2003, 'Literature', 1),
@@ -195,7 +194,9 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (177, '1984' , 13, 1949, 'Novel' ,9),
 (178, 'Animal Farm' , 13, 1945, 'Novel' ,9),
 (179, 'The Game of Nations' , 64, 1969, 'History' ,1),
-(180, 'Sayied Rijal Altarikh - Muhammed' , 66, 2007, 'Religion' ,5);
+(180, 'Sayied Rijal Altarikh - Muhammed' , 66, 2007, 'Religion' ,5),
+(181, 'The Muqaddimah', 29, 1377, 'History', 10);
+
 
 
 
