@@ -1,8 +1,12 @@
-## SQL Files
+## Informations
 
 Here is the SQL file used in this project:
 
-- [LibraryDB.sql](path/to/LibraryDB.sql)
+- [LibraryDB.sql](LibraryDB.sql)
+
+Here is Book Search tool with 10 Books (used c++)
+
+- [booksearch.cpp](booksearch.cpp)
 
 
 ## SQL Schema Example
