@@ -17,7 +17,7 @@ use librarydb;
 --
 
 CREATE TABLE `authors` (
-  `author_id` int(11) NOT NULL,
+  `author_id` int(11) PRIMARY KEY,
   `name` varchar(255) NOT NULL,
   `birth_year` int(11) DEFAULT NULL,
   `death_year` int(11) DEFAULT NULL
@@ -102,12 +102,13 @@ INSERT INTO `authors` (`author_id`, `name`, `birth_year`, `death_year`) VALUES
 --
 
 CREATE TABLE `books` (
-  `book_id` int(11) NOT NULL,
+  `book_id` int(11) PRIMARY KEY,
   `title` varchar(255) NOT NULL,
   `author_id` int(11) DEFAULT NULL,
   `publication_year` int(11) DEFAULT NULL,
   `genre` varchar(50) DEFAULT NULL,
-  `available_copies` int(11) DEFAULT NULL
+  `available_copies` int(11) DEFAULT NULL ,
+  FOREIGN KEY (`author_id`) REFERENCES `authors`(`author_id`) ON DELETE SET NULL ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -116,7 +117,7 @@ CREATE TABLE `books` (
 
 INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre`, `available_copies`) VALUES
 (101, 'Al-Bidayah wa-an-Nihayah', 1, 2000, 'History', 10),
-(102, 'Siyar Alam al-Nubala', 2, 1999, 'History', 8),
+(102, 'Siyar Aalam al-Nubala', 2, 1999, 'History', 8),
 (103, 'The Mysterious Affair at Styles', 3, 1934, 'Mystery', 12),
 (104, 'Aqoom Qeela', 4, 2021, 'Novel', 7),
 (105, 'Atlas of the Umayyad State', 5, 2005, 'History', 6),
@@ -143,7 +144,7 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (126, 'Quantum Physics', 19, 2019, 'Science', 7),
 (127, 'Economic Geography', 20, 2018, 'Geography', 9),
 (128, 'Science and Religion', 21, 2015, 'Philosophy', 6),
-(129, 'The Muqaddimah', 1, 1377, 'History', 12),
+(129, 'The Muqaddimah', 29, 1377, 'History', 12),
 (130, 'The Story of Civilization', 22, 1935, 'History', 11),
 (131, 'Islamic History', 1, 1950, 'History', 10),
 (132, 'Arabic Literature', 23, 2012, 'Literature', 13),
@@ -194,9 +195,7 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (177, '1984' , 13, 1949, 'Novel' ,9),
 (178, 'Animal Farm' , 13, 1945, 'Novel' ,9),
 (179, 'The Game of Nations' , 64, 1969, 'History' ,1),
-(180, 'Sayied Rijal Altarikh - Muhammed' , 66, 2007, 'Religion' ,5),
-(181, 'The Muqaddimah', 29, 1377, 'History', 10);
-
+(180, 'Sayied Rijal Altarikh - Muhammed' , 66, 2007, 'Religion' ,5);
 
 
 
@@ -207,7 +206,7 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 --
 
 CREATE TABLE `users` (
-  `user_id` int(11) NOT NULL,
+  `user_id` int(11) PRIMARY KEY,
   `username` varchar(50) NOT NULL,
   `password_hash` varchar(255) NOT NULL,
   `full_name` varchar(100) NOT NULL,
