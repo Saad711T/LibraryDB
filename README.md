@@ -10,7 +10,7 @@ Here is Book Search tool with 10 Books (used c++) :
 
 
 Here is ER-Model for Database :
-- [ER Model](ER-DIAGRAM-LibraryDB.png)
+- [ER-DIAGRAM-LibraryDB.png]
 
 
 ## SQL Schema Example
