@@ -4,9 +4,13 @@ Here is the SQL file used in this project:
 
 - [LibraryDB.sql](LibraryDB.sql)
 
-Here is Book Search tool with 10 Books (used c++)
+Here is Book Search tool with 10 Books (used c++) :
 
 - [booksearch.cpp](booksearch.cpp)
+
+
+Here is ER-Model for Database :
+- [ER Model](ER-DIAGRAM-LibraryDB.png)
 
 
 ## SQL Schema Example
