@@ -19,3 +19,6 @@ ORDER BY total_books DESC;
 SELECT title, publication_year
 FROM books
 WHERE publication_year BETWEEN 1900 AND 2000;
+
+-- مجموع الكتب المتوفرة
+SELECT SUM (available_copies) AS total_copies
