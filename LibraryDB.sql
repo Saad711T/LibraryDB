@@ -197,6 +197,27 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (179, 'The Game of Nations' , 64, 1969, 'History' ,1),
 (180, 'Sayied Rijal Altarikh - Muhammed' , 66, 2007, 'Religion' ,5);
 
+--
+-- Table structure for table `books_images`
+--
+
+CREATE TABLE `books_images` (
+  `book_id` int(11) PRIMARY KEY,
+  `image_url` varchar(255) NOT NULL,
+  FOREIGN KEY (`book_id`) REFERENCES `books`(`book_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `books_images`
+--
+
+INSERT INTO `books_images` (`book_id`,`image_url`) VALUES 
+(101,'https://images.tokopedia.net/img/cache/700/VqbcmM/2023/7/26/ba83d535-6a70-41d0-b4c4-ba2b5c5dddcd.jpg'),
+(102,'https://m.media-amazon.com/images/I/61CH-b4hSIL._AC_UF1000,1000_QL80_.jpg'),
+(103,'https://m.media-amazon.com/images/I/91OPp9ldt9L.jpg'),
+(104,'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1394163349i/21394850.jpg'),
+(105,'https://www.neelwafurat.com/images/sa/abookstore/covers/carton/10/10862.jpg');
+
 
 
 -- --------------------------------------------------------
