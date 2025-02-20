@@ -216,7 +216,13 @@ INSERT INTO `books_images` (`book_id`,`image_url`) VALUES
 (102,'https://m.media-amazon.com/images/I/61CH-b4hSIL._AC_UF1000,1000_QL80_.jpg'),
 (103,'https://m.media-amazon.com/images/I/91OPp9ldt9L.jpg'),
 (104,'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1394163349i/21394850.jpg'),
-(105,'https://www.neelwafurat.com/images/sa/abookstore/covers/carton/10/10862.jpg');
+(105,'https://www.neelwafurat.com/images/sa/abookstore/covers/carton/10/10862.jpg'),
+(106,'https://archive.org/services/img/1_20200220_20200220_1833/full/pct:200/0/default.jpg'),
+(107,'https://m.media-amazon.com/images/I/51VqGJguF6L._UF894,1000_QL80_.jpg'),
+(108,'https://ak-asset.jarir.com/akeneo-prod/asset/m1images/1/9/190646.jpg'),
+(109,'https://m.media-amazon.com/images/I/71NZAaNgulL._AC_UF1000,1000_QL80_.jpg'),
+(110,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ33iG0zvKYlg1kgd4WvdB2ypTPthC0Sg7dog&s');
+
 
 
 
