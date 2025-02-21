@@ -221,8 +221,10 @@ INSERT INTO `books_images` (`book_id`,`image_url`) VALUES
 (107,'https://m.media-amazon.com/images/I/51VqGJguF6L._UF894,1000_QL80_.jpg'),
 (108,'https://ak-asset.jarir.com/akeneo-prod/asset/m1images/1/9/190646.jpg'),
 (109,'https://m.media-amazon.com/images/I/71NZAaNgulL._AC_UF1000,1000_QL80_.jpg'),
-(110,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ33iG0zvKYlg1kgd4WvdB2ypTPthC0Sg7dog&s');
-
+(110,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ33iG0zvKYlg1kgd4WvdB2ypTPthC0Sg7dog&s'),
+(111,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6nE84VceCTkx582l2CCAes3DBh0UvXhDnQ&s'),
+(112,'https://arabicbookslondon.com/wp-content/uploads/2015/07/ABL786000063_Al-Bayan-wa-at-Tabyin-e1437393732648-scaled.jpg'),
+(113,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0KXBwErVctAeiJgrXh3pzlw6XDFvT-K3Aqw&s');
 
 
 
