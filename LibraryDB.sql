@@ -195,7 +195,8 @@ INSERT INTO `books` (`book_id`, `title`, `author_id`, `publication_year`, `genre
 (177, '1984' , 13, 1949, 'Novel' ,9),
 (178, 'Animal Farm' , 13, 1945, 'Novel' ,9),
 (179, 'The Game of Nations' , 64, 1969, 'History' ,1),
-(180, 'Sayied Rijal Altarikh - Muhammed' , 66, 2007, 'Religion' ,5);
+(180, 'Sayied Rijal Altarikh - Muhammed' , 66, 2007, 'Religion' ,5),
+(181, 'Digital Fortress' , 62, 1998, 'Novel' ,5);
 
 --
 -- Table structure for table `books_images`
