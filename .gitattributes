@@ -1,3 +1,11 @@
 *.sql linguist-detectable=true
 *.sql linguist-language=sql
 *.sql text
+*.html linguist-detectable=true
+*.html linguist-language=html
+*.js linguist-detectable=true
+*.js linguist-language=javascript
+*.css linguist-detectable=true
+*.css linguist-language=css
+
+
