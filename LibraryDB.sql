@@ -225,7 +225,12 @@ INSERT INTO `books_images` (`book_id`,`image_url`) VALUES
 (110,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ33iG0zvKYlg1kgd4WvdB2ypTPthC0Sg7dog&s'),
 (111,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6nE84VceCTkx582l2CCAes3DBh0UvXhDnQ&s'),
 (112,'https://arabicbookslondon.com/wp-content/uploads/2015/07/ABL786000063_Al-Bayan-wa-at-Tabyin-e1437393732648-scaled.jpg'),
-(113,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0KXBwErVctAeiJgrXh3pzlw6XDFvT-K3Aqw&s');
+(113,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0KXBwErVctAeiJgrXh3pzlw6XDFvT-K3Aqw&s'),
+(140,'https://cdn.salla.sa/YvENm/3C5q0x5j2oDNIg1mANqc0a5E1jAtnDNmSOY1vCIR.jpg'),
+(159,'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1425370243i/25060227.jpg'),
+(161,'https://m.media-amazon.com/images/I/51no+g+ttWL._SL500_.jpg'),
+(177,'https://covers.storytel.com/jpg-640/9782291090830.58b5cb0d-d3ca-43e2-bfa7-4095b5a0ef41?optimize=high'),
+(178,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGKrY5skWPbFuifmD4MhVM_ZTcxIbDG0dm8g&s');
 
 
 
